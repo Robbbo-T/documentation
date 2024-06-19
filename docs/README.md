@@ -1,7 +1,28 @@
-# IBM Cloud Terraform modules documentation
 
-The IBM Cloud Terraform modules project is a collection of open source Terraform modules that help you build, update, and version complex and compliant environments that you can deploy in IBM Cloud. The goal of this project is to share and collaborate on useful infrastructure as code (IaC) and automation assets.
+Primera Forma Normal (1NF):
 
-You can use [Terraform](https://www.terraform.io/) to specify your cloud infrastructure resources and services by using the high-level scripting HashiCorp Configuration Language (HCL).
+Cada columna debe ser atómica, es decir, no puede tener un conjunto de valores.
 
-To get started creating modules. see [Authoring guidelines](implementation-guidelines.md) and [Contributing to the IBM Cloud Terraform modules project](contribute-module.md).
+Los valores en cada columna de una fila deben ser únicos.
+
+Segunda Forma Normal (2NF):
+
+Cumple con 1NF.
+
+Cada campo no clave debe ser funcionalmente dependiente de la clave completa (es decir, los campos no clave deben depender de todos los campos clave).
+
+Tercera Forma Normal (3NF):
+
+Cumple con 2NF.
+
+No hay dependencias transitivas de campos no clave (es decir, si un campo no clave depende de otro campo no clave, entonces ese otro campo debe ser una clave).
+
+Cuarta Forma Normal (4NF):
+
+Cumple con 3NF.
+
+No existen dependencias multivaluadas (es decir, un campo no clave no puede depender de un conjunto de campos clave).
+
+Por favor, ten en cuenta que estos son principios básicos y existen formas normales más avanzadas como la Quinta Forma Normal (5NF), Sexta Forma Normal (6NF), etc. Además, normalizar una base de datos puede tener pros y contras dependiendo del contexto, por lo que es importante entender bien sus implicaciones antes de aplicarla.
+
+Espero que esto te ayude a comenzar con la normalización de la base de datos
