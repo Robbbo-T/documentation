@@ -1,4 +1,4 @@
-# ### Implementación de una Base de Datos Meritocrática con Optimización de Crosspulse para una Sociedad más Justa y Sostenible
+# Computing and Data Science for Sustainable### Implementación de una Base de Datos Meritocrática con Optimización de Crosspulse para una Sociedad más Justa y Sostenible
 
 #### 1. Preparación del Entorno
 
